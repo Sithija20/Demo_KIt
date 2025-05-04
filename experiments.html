@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-en="Experiments | Mechanism Kit" data-lang-si="පරීක්ෂණ | Mechanism Kit">Experiments | Mechanism Kit</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-cogs me-2"></i>Mechanism Kit</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" data-lang-en="Home" data-lang-si="මුල් පිටුව">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="assembly.html" data-lang-en="Assembly" data-lang-si="එකලස් කිරීම">Assembly</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMechanisms" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-lang-en="Mechanisms" data-lang-si="යාන්ත්‍රණ">
+                Mechanisms
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMechanisms">
+                 <li><a class="dropdown-item" href="mechanisms/gears.html">Gears & Pinions</a></li>
+                 <li><a class="dropdown-item" href="mechanisms/gear-trains.html">Gear Trains</a></li>
+                 <li><a class="dropdown-item" href="mechanisms/belts.html">Belts & Pulleys</a></li>
+                 <li><a class="dropdown-item" href="mechanisms/cams.html">CAMs</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="experiments.html" data-lang-en="Experiments" data-lang-si="පරීක්ෂණ">Experiments</a>
+            </li>
+             <li class="nav-item">
+                 <button id="lang-toggle-btn" class="btn btn-sm btn-outline-light" data-switch-to="si">සිංහල</button>
+             </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container mt-5 mb-5">
+        <h1 data-lang-en="Experiments and Demonstrations" data-lang-si="පරීක්ෂණ සහ නිරූපණ"><i class="fas fa-flask me-2"></i>Experiments and Demonstrations</h1>
+        <p class="lead" data-lang-en="Perform these experiments using the Mechanism Demonstrator Kit to gain hands-on understanding of mechanical principles." data-lang-si="යාන්ත්‍රික මූලධර්ම පිළිබඳ ප්‍රායෝගික අවබෝධයක් ලබා ගැනීම සඳහා Mechanism Demonstrator Kit එක භාවිතයෙන් මෙම පරීක්ෂණ සිදු කරන්න.">Perform these experiments using the Mechanism Demonstrator Kit to gain hands-on understanding of mechanical principles.</p>
+        <hr>
+
+        <section id="gears" class="content-section card">
+            <div class="card-header">
+                <h2 class="h4 mb-0" data-lang-en="Experiment 1: Gear Characteristics (Involute vs. Cycloidal)" data-lang-si="පරීක්ෂණය 1: Gear ලක්ෂණ (Involute vs. Cycloidal)">Experiment 1: Gear Characteristics (Involute vs. Cycloidal)</h2>
+            </div>
+            <div class="card-body">
+                <h3 class="h5" data-lang-en="Objective" data-lang-si="අරමුණ (Objective)">Objective</h3>
+                <p data-lang-en="To observe the difference in meshing between 'Involute' and 'Cycloidal' gears and the effect of changing 'Center Distance'." data-lang-si="`Involute` සහ `Cycloidal` ගියර් අතර meshing හි වෙනස සහ `Center Distance` වෙනස් කිරීමේ බලපෑම නිරීක්ෂණය කිරීම.">To observe the difference in meshing between 'Involute' and 'Cycloidal' gears and the effect of changing 'Center Distance'.</p>
+
+                <h3 class="h5" data-lang-en="Components Required" data-lang-si="අවශ්‍ය උපාංග (Components Required)">Components Required</h3>
+                <ul>
+                    <li data-lang-en="Base Plate" data-lang-si="Base Plate">Base Plate</li>
+                    <li data-lang-en="Shafts" data-lang-si="Shafts">Shafts</li>
+                    <li data-lang-en="Involute Gear Pair" data-lang-si="Involute Gear Pair">Involute Gear Pair</li>
+                    <li data-lang-en="Cycloidal Gear Pair" data-lang-si="Cycloidal Gear Pair">Cycloidal Gear Pair</li>
+                    <li data-lang-en="Mechanism for adjusting Center Distance" data-lang-si="Center Distance සීරුමාරු කිරීමේ යාන්ත්‍රණය">Mechanism for adjusting Center Distance</li>
+                </ul>
+
+                <h3 class="h5" data-lang-en="Procedure" data-lang-si="ක්‍රියා පටිපාටිය (Procedure)">Procedure</h3>
+                <ol>
+                    <li data-lang-en="Assemble the 'Involute' gear pair on the base plate at the correct 'Center Distance'. Rotate the gears and observe the smoothness of meshing." data-lang-si="`Involute` ගියර් යුගලය නිවැරදි `Center Distance` එකේ base plate එක මත එකලස් කරන්න. ගියර් භ්‍රමණය කර meshing හි සුමට බව නිරීක්ෂණය කරන්න.">Assemble the 'Involute' gear pair on the base plate at the correct 'Center Distance'. Rotate the gears and observe the smoothness of meshing.</li>
+                    <li data-lang-en="Slightly increase and decrease the 'Center Distance'. Observe how the 'Involute' gears tolerate this change." data-lang-si="`Center Distance` එක මඳක් වැඩි කර අඩු කරන්න. `Involute` ගියර් මෙම වෙනසට ඔරොත්තු දෙන ආකාරය නිරීක්ෂණය කරන්න.">Slightly increase and decrease the 'Center Distance'. Observe how the 'Involute' gears tolerate this change.</li>
+                    <li data-lang-en="Replace the 'Involute' pair with the 'Cycloidal' gear pair, ensuring precise 'Center Distance'. Observe meshing." data-lang-si="`Involute` යුගලය ඉවත් කර, නිවැරදි `Center Distance` එක සහතික කරමින් `Cycloidal` ගියර් යුගලය සවිකරන්න. Meshing නිරීක්ෂණය කරන්න.">Replace the 'Involute' pair with the 'Cycloidal' gear pair, ensuring precise 'Center Distance'. Observe meshing.</li>
+                     <li data-lang-en="Attempt to slightly change the 'Center Distance' for the 'Cycloidal' pair. Observe the effect (likely jamming or improper meshing)." data-lang-si="`Cycloidal` යුගලය සඳහා `Center Distance` එක මඳක් වෙනස් කිරීමට උත්සාහ කරන්න. එහි බලපෑම (බොහෝවිට හිරවීම හෝ නුසුදුසු meshing) නිරීක්ෂණය කරන්න.">Attempt to slightly change the 'Center Distance' for the 'Cycloidal' pair. Observe the effect (likely jamming or improper meshing).</li>
+                </ol>
+
+                 <h3 class="h5" data-lang-en="Observations & Analysis" data-lang-si="නිරීක්ෂණ සහ විශ්ලේෂණය (Observations & Analysis)">Observations & Analysis</h3>
+                 <p data-lang-en="Record the differences in tolerance to 'Center Distance' variations. Discuss why 'Involute' gears are more commonly used in applications where precise mounting is difficult." data-lang-si="`Center Distance` වෙනස්වීම් වලට ඇති tolerance හි වෙනස්කම් සටහන් කරගන්න. නිවැරදිව සවිකිරීම අපහසු යෙදුම් වල `Involute` ගියර් බහුලව භාවිතා වීමට හේතු සාකච්ඡා කරන්න.">Record the differences in tolerance to 'Center Distance' variations. Discuss why 'Involute' gears are more commonly used in applications where precise mounting is difficult.</p>
+                 </div>
+        </section>
+
+        <section id="gear-trains" class="content-section card mt-4">
+            <div class="card-header">
+                 <h2 class="h4 mb-0" data-lang-en="Experiment 2: Simple vs. Compound Gear Trains" data-lang-si="පරීක්ෂණය 2: Simple vs. Compound Gear Trains">Experiment 2: Simple vs. Compound Gear Trains</h2>
+            </div>
+             <div class="card-body">
+                 <h3 class="h5" data-lang-en="Objective" data-lang-si="අරමුණ (Objective)">Objective</h3>
+                <p data-lang-en="To assemble Simple and Compound gear trains and determine their respective 'Gear Ratios'." data-lang-si="Simple සහ Compound gear trains එකලස් කර ඒවායේ අදාළ `Gear Ratios` නිර්ණය කිරීම.">To assemble Simple and Compound gear trains and determine their respective 'Gear Ratios'.</p>
+
+                 <h3 class="h5" data-lang-en="Components Required" data-lang-si="අවශ්‍ය උපාංග (Components Required)">Components Required</h3>
+                 <ul>
+                    <li data-lang-en="Base Plate, Shafts" data-lang-si="Base Plate, Shafts">Base Plate, Shafts</li>
+                    <li data-lang-en="Assortment of Involute Spur Gears (different sizes)" data-lang-si="Involute Spur Gears (විවිධ ප්‍රමාණයේ)">Assortment of Involute Spur Gears (different sizes)</li>
+                 </ul>
+
+                 <h3 class="h5" data-lang-en="Procedure" data-lang-si="ක්‍රියා පටිපාටිය (Procedure)">Procedure</h3>
+                 <ol>
+                     <li data-lang-en="Assemble a 'Simple Gear Train' using two gears. Count teeth (N1, N2). Rotate the input gear one full turn and count the output gear turns. Calculate the experimental ratio (Turns_in / Turns_out) and theoretical ratio (N2/N1)." data-lang-si="ගියර් දෙකක් යොදා `Simple Gear Train` එකක් එකලස් කරන්න. දත් ගණන් කරන්න (N1, N2). Input ගියරය සම්පූර්ණ වටයක් කරකවා output ගියරයේ වට ගණන බලන්න. පරීක්ෂණාත්මක ratio (Turns_in / Turns_out) සහ න්‍යායික ratio (N2/N1) ගණනය කරන්න.">Assemble a 'Simple Gear Train' using two gears. Count teeth (N1, N2). Rotate the input gear one full turn and count the output gear turns. Calculate the experimental ratio (Turns_in / Turns_out) and theoretical ratio (N2/N1).</li>
+                     <li data-lang-en="Assemble a 'Compound Gear Train' (e.g., 4 gears on 3 shafts). Count teeth (N1, N2, N3, N4 where N2 and N3 are on the same shaft). Repeat rotation counting. Calculate experimental ratio and theoretical ratio ((N2*N4)/(N1*N3))." data-lang-si="`Compound Gear Train` එකක් (උදා: shafts 3ක ගියර් 4ක්) එකලස් කරන්න. දත් ගණන් කරන්න (N1, N2, N3, N4 - මෙහි N2 සහ N3 එකම shaft එකේ). භ්‍රමණ ගණනය කිරීම නැවත කරන්න. පරීක්ෂණාත්මක ratio සහ න්‍යායික ratio ((N2*N4)/(N1*N3)) ගණනය කරන්න.">Assemble a 'Compound Gear Train' (e.g., 4 gears on 3 shafts). Count teeth (N1, N2, N3, N4 where N2 and N3 are on the same shaft). Repeat rotation counting. Calculate experimental ratio and theoretical ratio ((N2*N4)/(N1*N3)).</li>
+                 </ol>
+
+                  <h3 class="h5" data-lang-en="Observations & Analysis" data-lang-si="නිරීක්ෂණ සහ විශ්ලේෂණය (Observations & Analysis)">Observations & Analysis</h3>
+                  <p data-lang-en="Compare theoretical and experimental ratios. Discuss the difference in achievable speed reduction between simple and compound trains for a similar number of gears." data-lang-si="න්‍යායික සහ පරීක්ෂණාත්මක ratios සසඳන්න. සමාන ගියර් ගණනක් සඳහා simple සහ compound trains අතර ලබාගත හැකි වේග අඩුකිරීමේ වෙනස සාකච්ඡා කරන්න.">Compare theoretical and experimental ratios. Discuss the difference in achievable speed reduction between simple and compound trains for a similar number of gears.</p>
+             </div>
+         </section>
+
+         <section id="belts" class="content-section card mt-4">
+             <div class="card-header">
+                  <h2 class="h4 mb-0" data-lang-en="Experiment 3: Effect of Belt Tension" data-lang-si="පරීක්ෂණය 3: Belt Tension හි බලපෑම">Experiment 3: Effect of Belt Tension</h2>
+             </div>
+              <div class="card-body">
+                  <h3 class="h5" data-lang-en="Objective" data-lang-si="අරමුණ (Objective)">Objective</h3>
+                 <p data-lang-en="To measure initial 'belt tension' and observe how varying tension affects the transmission of motion (specifically slip)." data-lang-si="ආරම්භක `belt tension` මැනීම සහ tension එක වෙනස් කිරීම චලිතය සම්ප්‍රේෂණයට (විශේෂයෙන් slip වීමට) බලපාන ආකාරය නිරීක්ෂණය කිරීම.">To measure initial 'belt tension' and observe how varying tension affects the transmission of motion (specifically slip).</p>
+
+                  <h3 class="h5" data-lang-en="Components Required" data-lang-si="අවශ්‍ය උපාංග (Components Required)">Components Required</h3>
+                  <ul>
+                     <li data-lang-en="Base Plate, Shafts" data-lang-si="Base Plate, Shafts">Base Plate, Shafts</li>
+                     <li data-lang-en="Pulleys (Flat)" data-lang-si="Pulleys (Flat)">Pulleys (Flat)</li>
+                     <li data-lang-en="Flat Belt" data-lang-si="Flat Belt">Flat Belt</li>
+                      <li data-lang-en="Mechanism for adjusting pulley distance (tension adjustment)" data-lang-si="Pulley දුර සීරුමාරු කිරීමේ යාන්ත්‍රණය (tension adjustment)">Mechanism for adjusting pulley distance (tension adjustment)</li>
+                      <li data-lang-en="Mechanism for measuring tension (e.g., spring balance)" data-lang-si="Tension මැනීමේ යාන්ත්‍රණය (උදා: spring balance)">Mechanism for measuring tension (e.g., spring balance)</li>
+                  </ul>
+
+                  <h3 class="h5" data-lang-en="Procedure" data-lang-si="ක්‍රියා පටිපාටිය (Procedure)">Procedure</h3>
+                  <ol>
+                      <li data-lang-en="Assemble the belt and pulley system." data-lang-si="Belt සහ pulley පද්ධතිය එකලස් කරන්න.">Assemble the belt and pulley system.</li>
+                      <li data-lang-en="Set the initial tension to a low value using the adjustment mechanism. Measure and record this tension using the provided tool." data-lang-si="Adjustment mechanism එක භාවිතයෙන් ආරම්භක tension එක අඩු අගයකට සකසන්න. සපයා ඇති මෙවලම භාවිතයෙන් මෙම tension එක මැන සටහන් කරගන්න.">Set the initial tension to a low value using the adjustment mechanism. Measure and record this tension using the provided tool.</li>
+                      <li data-lang-en="Rotate the driver pulley and observe the driven pulley. Note any significant slip (driver pulley turns but driven pulley lags or stops)." data-lang-si="Driver pulley එක කරකවා driven pulley එක නිරීක්ෂණය කරන්න. යම් සැලකිය යුතු slip වීමක් (driver pulley කැරකුනත් driven pulley එක පමාවීම හෝ නැවතීම) ඇත්නම් සටහන් කරගන්න.">Rotate the driver pulley and observe the driven pulley. Note any significant slip (driver pulley turns but driven pulley lags or stops).</li>
+                      <li data-lang-en="Incrementally increase the tension using the adjustment mechanism. Measure and record the tension at each step." data-lang-si="Adjustment mechanism එක භාවිතයෙන් tension එක ක්‍රමයෙන් වැඩි කරන්න. එක් එක් පියවරේදී tension එක මැන සටහන් කරගන්න.">Incrementally increase the tension using the adjustment mechanism. Measure and record the tension at each step.</li>
+                      <li data-lang-en="Repeat the observation of slip at each tension level." data-lang-si="එක් එක් tension මට්ටමේදී slip වීම නිරීක්ෂණය කිරීම නැවත කරන්න.">Repeat the observation of slip at each tension level.</li>
+                  </ol>
+
+                   <h3 class="h5" data-lang-en="Observations & Analysis" data-lang-si="නිරීක්ෂණ සහ විශ්ලේෂණය (Observations & Analysis)">Observations & Analysis</h3>
+                   <p data-lang-en="Plot the observed slip (e.g., qualitative: None, Slight, Significant) against the measured tension. Discuss the relationship between belt tension and the ability to transmit power without excessive slip." data-lang-si="නිරීක්ෂණය කළ slip (උදා: ගුණාත්මක: None, Slight, Significant) එක මනින ලද tension එකට සාපේක්ෂව plot කරන්න. Belt tension එක සහ අධික slip වීමකින් තොරව බලය සම්ප්‍රේෂණය කිරීමේ හැකියාව අතර සම්බන්ධය සාකච්ඡා කරන්න.">Plot the observed slip (e.g., qualitative: None, Slight, Significant) against the measured tension. Discuss the relationship between belt tension and the ability to transmit power without excessive slip.</p>
+              </div>
+          </section>
+
+         <section id="cams" class="content-section card mt-4">
+             <div class="card-header">
+                  <h2 class="h4 mb-0" data-lang-en="Experiment 4: Graphing CAM Follower Motion" data-lang-si="පරීක්ෂණය 4: CAM Follower චලිතය Graph කිරීම">Experiment 4: Graphing CAM Follower Motion</h2>
+             </div>
+              <div class="card-body">
+                  <h3 class="h5" data-lang-en="Objective" data-lang-si="අරමුණ (Objective)">Objective</h3>
+                 <p data-lang-en="To experimentally determine and 'graph' the displacement of the 'Follower' for one full rotation of the 'CAM'." data-lang-si="`CAM` එකක එක් සම්පූර්ණ භ්‍රමණයකදී `Follower` එකේ displacement එක පරීක්ෂණාත්මකව නිර්ණය කර `graph` කිරීම.">To experimentally determine and 'graph' the displacement of the 'Follower' for one full rotation of the 'CAM'.</p>
+
+                  <h3 class="h5" data-lang-en="Components Required" data-lang-si="අවශ්‍ය උපාංග (Components Required)">Components Required</h3>
+                  <ul>
+                       <li data-lang-en="Base Plate, Shafts" data-lang-si="Base Plate, Shafts">Base Plate, Shafts</li>
+                       <li data-lang-en="CAM" data-lang-si="CAM">CAM</li>
+                       <li data-lang-en="Follower" data-lang-si="Follower">Follower</li>
+                       <li data-lang-en="Mechanism for rotating CAM and measuring angle" data-lang-si="CAM භ්‍රමණය කර angle මැනීමේ යාන්ත්‍රණය">Mechanism for rotating CAM and measuring angle</li>
+                       <li data-lang-en="Mechanism for measuring Follower displacement" data-lang-si="Follower displacement මැනීමේ යාන්ත්‍රණය">Mechanism for measuring Follower displacement</li>
+                        <li data-lang-en="Graph paper or software" data-lang-si="Graph paper හෝ software">Graph paper or software</li>
+                  </ul>
+
+                  <h3 class="h5" data-lang-en="Procedure" data-lang-si="ක්‍රියා පටිපාටිය (Procedure)">Procedure</h3>
+                  <ol>
+                      <li data-lang-en="Assemble the CAM and Follower mechanism." data-lang-si="CAM සහ Follower යාන්ත්‍රණය එකලස් කරන්න.">Assemble the CAM and Follower mechanism.</li>
+                      <li data-lang-en="Set the CAM angle to 0 degrees (starting position). Measure and record the Follower's displacement (this might be your zero reference)." data-lang-si="CAM angle එක අංශක 0 ට (ආරම්භක ස්ථානය) සකසන්න. Follower ගේ displacement එක මැන සටහන් කරගන්න (මෙය ඔබේ zero reference එක විය හැක).">Set the CAM angle to 0 degrees (starting position). Measure and record the Follower's displacement (this might be your zero reference).</li>
+                      <li data-lang-en="Rotate the CAM by a small increment (e.g., 10 or 15 degrees). Measure and record the new Follower displacement." data-lang-si="CAM එක කුඩා වර්ධකයකින් (උදා: අංශක 10 හෝ 15) කරකවන්න. නව Follower displacement එක මැන සටහන් කරගන්න.">Rotate the CAM by a small increment (e.g., 10 or 15 degrees). Measure and record the new Follower displacement.</li>
+                      <li data-lang-en="Repeat step 3 for one full rotation of the CAM (360 degrees)." data-lang-si="CAM එකේ එක් සම්පූර්ණ භ්‍රමණයකට (අංශක 360) පියවර 3 නැවත සිදු කරන්න.">Repeat step 3 for one full rotation of the CAM (360 degrees).</li>
+                      <li data-lang-en="Plot the Follower displacement (Y-axis) against the CAM angle (X-axis) on graph paper or using software." data-lang-si="Follower displacement (Y-අක්ෂය) එක CAM angle (X-අක්ෂය) එකට සාපේක්ෂව graph paper එකක හෝ software එකක් භාවිතයෙන් plot කරන්න.">Plot the Follower displacement (Y-axis) against the CAM angle (X-axis) on graph paper or using software.</li>
+                  </ol>
+
+                   <h3 class="h5" data-lang-en="Observations & Analysis" data-lang-si="නිරීක්ෂණ සහ විශ්ලේෂණය (Observations & Analysis)">Observations & Analysis</h3>
+                   <p data-lang-en="Analyze the resulting displacement 'graph'. Identify the 'rise', 'dwell' (if any), and 'fall' portions of the follower motion. Compare the shape to theoretical CAM profiles (e.g., SHM, cycloidal) if known." data-lang-si="ලැබුණු displacement `graph` එක විශ්ලේෂණය කරන්න. Follower චලිතයේ 'rise', 'dwell' (ඇත්නම්), සහ 'fall' කොටස් හඳුනාගන්න. හැඩය න්‍යායික CAM profiles (උදා: SHM, cycloidal) සමඟ සසඳන්න (දන්නේ නම්).">Analyze the resulting displacement 'graph'. Identify the 'rise', 'dwell' (if any), and 'fall' portions of the follower motion. Compare the shape to theoretical CAM profiles (e.g., SHM, cycloidal) if known.</p>
+              </div>
+          </section>
+
+         </main>
+
+    <footer>
+         <div class="container">
+             <p data-lang-en="&copy; <script>document.write(new Date().getFullYear())</script> Mechanism Demonstrator Project. All Rights Reserved." data-lang-si="&copy; <script>document.write(new Date().getFullYear())</script> යාන්ත්‍රණ නිරූපණ ව්‍යාපෘතිය. සියලුම හිමිකම් ඇවිරිණි.">&copy; <script>document.write(new Date().getFullYear())</script> Mechanism Demonstrator Project. All Rights Reserved.</p>
+         </div>
+     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

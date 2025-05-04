@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-en="Assembly Instructions | Mechanism Kit" data-lang-si="එකලස් කිරීමේ උපදෙස් | Mechanism Kit">Assembly Instructions | Mechanism Kit</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-cogs me-2"></i>Mechanism Kit</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" data-lang-en="Home" data-lang-si="මුල් පිටුව">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="assembly.html" data-lang-en="Assembly" data-lang-si="එකලස් කිරීම">Assembly</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMechanisms" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-lang-en="Mechanisms" data-lang-si="යාන්ත්‍රණ">
+                Mechanisms
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMechanisms">
+                 <li><a class="dropdown-item" href="mechanisms/gears.html">Gears & Pinions</a></li>
+                 <li><a class="dropdown-item" href="mechanisms/gear-trains.html">Gear Trains</a></li>
+                 <li><a class="dropdown-item" href="mechanisms/belts.html">Belts & Pulleys</a></li>
+                 <li><a class="dropdown-item" href="mechanisms/cams.html">CAMs</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="experiments.html" data-lang-en="Experiments" data-lang-si="පරීක්ෂණ">Experiments</a>
+            </li>
+             <li class="nav-item">
+                 <button id="lang-toggle-btn" class="btn btn-sm btn-outline-light" data-switch-to="si">සිංහල</button>
+             </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container mt-5 mb-5">
+        <h1 data-lang-en="Assembly and Disassembly Instructions" data-lang-si="එකලස් කිරීමේ සහ ගැලවීමේ උපදෙස්"><i class="fas fa-tools me-2"></i>Assembly and Disassembly Instructions</h1>
+        <p class="lead" data-lang-en="Please read these instructions carefully before assembling or disassembling the kit. Use the diagrams to identify the necessary parts." data-lang-si="කරුණාකර කට්ටලය එකලස් කිරීමට හෝ ගැලවීමට පෙර මෙම උපදෙස් හොඳින් කියවන්න. අවශ්‍ය කොටස් හඳුනා ගැනීමට රූප සටහන් භාවිතා කරන්න.">Please read these instructions carefully before assembling or disassembling the kit. Use the diagrams to identify the necessary parts.</p>
+        <hr>
+
+        <h2 data-lang-en="Assembling Gears and Pinions" data-lang-si="Gears සහ Pinions එකලස් කිරීම"><i class="fas fa-cogs me-1"></i> Assembling Gears and Pinions</h2>
+        <div class="accordion" id="assemblyAccordionGears">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingGearOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGearOne" aria-expanded="false" aria-controls="collapseGearOne">
+                        <strong data-lang-en="Step 1:" data-lang-si="පියවර 1:">Step 1:</strong> <span data-lang-en="Prepare the Base" data-lang-si="පාදම (Base) සකස් කිරීම">Prepare the Base</span>
+                    </button>
+                </h2>
+                <div id="collapseGearOne" class="accordion-collapse collapse" aria-labelledby="headingGearOne" data-bs-parent="#assemblyAccordionGears">
+                    <div class="accordion-body">
+                        <p data-lang-en="Take the base and place it on a stable surface. Identify the holes where the gears will be mounted." data-lang-si="පාදම ගෙන එය ස්ථාවර මතුපිටක් මත තබන්න. ගියර් සවිකිරීමට නියමිත සිදුරු හඳුනාගන්න.">Take the base and place it on a stable surface. Identify the holes where the gears will be mounted.</p>
+                        <img src="images/assembly/gear_step1_placeholder.jpg" alt="Prepare the Base" class="img-fluid rounded mb-2" style="max-height: 200px;">
+                        </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingGearTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGearTwo" aria-expanded="false" aria-controls="collapseGearTwo">
+                         <strong data-lang-en="Step 2:" data-lang-si="පියවර 2:">Step 2:</strong> <span data-lang-en="Mount the First Gear (Involute)" data-lang-si="පළමු Gear (Involute) සවිකිරීම">Mount the First Gear (Involute)</span>
+                    </button>
+                </h2>
+                <div id="collapseGearTwo" class="accordion-collapse collapse" aria-labelledby="headingGearTwo" data-bs-parent="#assemblyAccordionGears">
+                    <div class="accordion-body">
+                        <p data-lang-en="Take the first gear with Involute teeth, mount it on the corresponding shaft, and attach it to the base. Ensure it rotates freely." data-lang-si="Involute දත් සහිත පළමු ගියරය ගෙන අදාළ shaft එක මත සවිකර පාදමට සම්බන්ධ කරන්න. එය නිදහසේ භ්‍රමණය වන බවට වග බලා ගන්න.">Take the first gear with Involute teeth, mount it on the corresponding shaft, and attach it to the base. Ensure it rotates freely.</p>
+                         <img src="images/assembly/gear_step2_placeholder.jpg" alt="Mounting First Gear" class="img-fluid rounded mb-2" style="max-height: 200px;">
+                    </div>
+                </div>
+            </div>
+             <div class="alert alert-warning mt-3" role="alert">
+                 <i class="fas fa-exclamation-triangle me-2"></i><strong data-lang-en="Note:" data-lang-si="සැලකිය යුතුයි:" data-html-content="true">Note:</strong> <span data-lang-en="Ensure correct Clearance and Center Distance are maintained when mounting gears." data-lang-si="ගියර් සවිකිරීමේදී Clearance සහ Center Distance නිවැරදිව පවත්වා ගැනීමට වග බලා ගන්න.">Ensure correct Clearance and Center Distance are maintained when mounting gears.</span>
+              </div>
+        </div>
+
+        <h2 class="mt-5" data-lang-en="Disassembly" data-lang-si="කට්ටලය ගැලවීම (Disassembly)"><i class="fas fa-undo me-1"></i> Disassembly</h2>
+        <p data-lang-en="To disassemble the kit, follow the assembly steps in reverse order. Carefully remove all parts and store them safely." data-lang-si="කට්ටලය ගැලවීමේදී, ඉහත එකලස් කිරීමේ පියවර (assembly steps) ආපසු පිළිවෙලට (reverse order) අනුගමනය කරන්න. සියලුම කොටස් ප්‍රවේශමෙන් ගලවා ආරක්ෂිතව තබන්න.">To disassemble the kit, follow the assembly steps in reverse order. Carefully remove all parts and store them safely.</p>
+
+    </main>
+
+    <footer>
+        <div class="container">
+             <p data-lang-en="&copy; <script>document.write(new Date().getFullYear())</script> Mechanism Demonstrator Project. All Rights Reserved." data-lang-si="&copy; <script>document.write(new Date().getFullYear())</script> යාන්ත්‍රණ නිරූපණ ව්‍යාපෘතිය. සියලුම හිමිකම් ඇවිරිණි.">&copy; <script>document.write(new Date().getFullYear())</script> Mechanism Demonstrator Project. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-en="Mechanism Demonstrator Kit | Home" data-lang-si="යාන්ත්‍රණ නිරූපණ කට්ටලය | මුල් පිටුව">Mechanism Demonstrator Kit | Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-cogs me-2"></i>Mechanism Kit</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html" data-lang-en="Home" data-lang-si="මුල් පිටුව">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="assembly.html" data-lang-en="Assembly" data-lang-si="එකලස් කිරීම">Assembly</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMechanisms" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-lang-en="Mechanisms" data-lang-si="යාන්ත්‍රණ">
+                Mechanisms
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMechanisms">
+                <li><a class="dropdown-item" href="mechanisms/gears.html">Gears & Pinions</a></li>
+                <li><a class="dropdown-item" href="mechanisms/gear-trains.html">Gear Trains</a></li>
+                <li><a class="dropdown-item" href="mechanisms/belts.html">Belts & Pulleys</a></li>
+                <li><a class="dropdown-item" href="mechanisms/cams.html">CAMs</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="experiments.html" data-lang-en="Experiments" data-lang-si="පරීක්ෂණ">Experiments</a>
+            </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="about.html" data-lang-en="About Page" data-lang-si="අපි ගැන පිටුව">About Page</a>
+            </li>
+            <li class="nav-item">
+                <button id="lang-toggle-btn" class="btn btn-sm btn-outline-light" data-switch-to="si">සිංහල</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container mt-5 mb-5">
+        <section class="text-center bg-light p-5 rounded mb-4">
+            <h1 data-lang-en="Welcome to the Mechanism Demonstrator Kit!" data-lang-si="යාන්ත්‍රණ නිරූපණ කට්ටලයට සාදරයෙන් පිළිගනිමු!">Welcome to the Mechanism Demonstrator Kit!</h1>
+            <p class="lead" data-lang-en="A kit designed for school and university students to easily learn and experiment with the principles of mechanics." data-lang-si="පාසල් සහ විශ්ව විද්‍යාල සිසුන් සඳහා යාන්ත්‍ර විද්‍යාවේ මූලධර්ම පහසුවෙන් ඉගෙන ගැනීමට සහ අත්හදා බැලීමට නිර්මාණය කරන ලද කට්ටලය.">A kit designed for school and university students to easily learn and experiment with the principles of mechanics.</p>
+            <a href="assembly.html" class="btn btn-primary btn-lg mt-3">
+                <i class="fas fa-tools me-2"></i><span data-lang-en="Start Assembly" data-lang-si="එකලස් කිරීම අරඹන්න">Start Assembly</span>
+            </a>
+             <button type="button" class="btn btn-secondary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#aboutUsModal">
+                 <i class="fas fa-info-circle me-2"></i><span data-lang-en="About Us" data-lang-si="අපි ගැන">About Us</span>
+             </button>
+        </section>
+
+        <section class="row text-center">
+             <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <i class="fas fa-cogs icon-large"></i>
+                    <h3 class="card-title" data-lang-en="Learn About Mechanisms" data-lang-si="යාන්ත්‍රණ ගැන ඉගෙනගන්න">Learn About Mechanisms</h3>
+                    <p class="card-text" data-lang-en="Understand how various mechanisms like Gears, Gear Trains, Belts, and CAMs work and their principles." data-lang-si="Gears, Gear Trains, Belts, CAMs වැනි විවිධ යාන්ත්‍රණ ක්‍රියා කරන ආකාරය සහ ඒවායේ මූලධර්ම.">Understand how various mechanisms like Gears, Gear Trains, Belts, and CAMs work and their principles.</p>
+                    <a href="mechanisms/gears.html" class="btn btn-outline-primary"><span data-lang-en="Read More" data-lang-si="වැඩිදුර කියවන්න">Read More</span></a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <i class="fas fa-wrench icon-large"></i>
+                    <h3 class="card-title" data-lang-en="Assembly Instructions" data-lang-si="එකලස් කිරීමේ උපදෙස්">Assembly Instructions</h3>
+                    <p class="card-text" data-lang-en="Step-by-step guides to correctly assemble and disassemble the kit." data-lang-si="කට්ටලය නිවැරදිව එකලස් කිරීමට සහ ගැලවීමට පියවරෙන් පියවර මාර්ගෝපදේශ.">Step-by-step guides to correctly assemble and disassemble the kit.</p>
+                    <a href="assembly.html" class="btn btn-outline-primary"><span data-lang-en="View Instructions" data-lang-si="උපදෙස් බලන්න">View Instructions</span></a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <i class="fas fa-flask icon-large"></i>
+                    <h3 class="card-title" data-lang-en="Experiments & Demonstrations" data-lang-si="පරීක්ෂණ සහ නිරූපණ">Experiments & Demonstrations</h3>
+                    <p class="card-text" data-lang-en="Practical experiments and demonstrations you can perform using the kit." data-lang-si="කට්ටලය භාවිතයෙන් කළ හැකි ප්‍රායෝගික පරීක්ෂණ සහ නිරූපණයන්.">Practical experiments and demonstrations you can perform using the kit.</p>
+                    <a href="experiments.html" class="btn btn-outline-primary"><span data-lang-en="View Experiments" data-lang-si="පරීක්ෂණ බලන්න">View Experiments</span></a>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-lang-en="&copy; <script>document.write(new Date().getFullYear())</script> Mechanism Demonstrator Project. All Rights Reserved." data-lang-si="&copy; <script>document.write(new Date().getFullYear())</script> යාන්ත්‍රණ නිරූපණ ව්‍යාපෘතිය. සියලුම හිමිකම් ඇවිරිණි.">&copy; <script>document.write(new Date().getFullYear())</script> Mechanism Demonstrator Project. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="aboutUsModal" tabindex="-1" aria-labelledby="aboutUsModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable"> <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="aboutUsModalLabel" data-lang-en="About Us" data-lang-si="අපි ගැන"><i class="fas fa-info-circle me-2"></i>About Us</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <section class="content-section">
+                <h2 data-lang-en="Our Project" data-lang-si="අපේ ව්‍යාපෘතිය"><i class="fas fa-project-diagram me-2"></i>Our Project</h2>
+                 <p data-lang-en="The Mechanism Demonstrator Kit is a university project aimed at creating an interactive and educational tool for school and university students. The primary goal is to provide a hands-on experience for understanding fundamental mechanical principles through tangible interaction." data-lang-si="Mechanism Demonstrator Kit යනු පාසල් සහ විශ්ව විද්‍යාල සිසුන් සඳහා අන්තර්ක්‍රියාකාරී සහ අධ්‍යාපනික මෙවලමක් නිර්මාණය කිරීම අරමුණු කරගත් විශ්ව විද්‍යාල ව්‍යාපෘතියකි. මූලික යාන්ත්‍රික මූලධර්ම අතින් අල්ලා ක්‍රියාකර බැලීමෙන් අවබෝධ කර ගැනීම සඳහා ප්‍රායෝගික අත්දැකීමක් ලබා දීම මෙහි ප්‍රධාන අරමුණයි.">The Mechanism Demonstrator Kit is a university project aimed at creating an interactive and educational tool for school and university students. The primary goal is to provide a hands-on experience for understanding fundamental mechanical principles through tangible interaction.</p>
+                 <p data-lang-en="This kit allows students to assemble, disassemble, and experiment with various common mechanisms, including:" data-lang-si="මෙම කට්ටලය මගින් සිසුන්ට පහත සඳහන් පොදු යාන්ත්‍රණ ඇතුළුව විවිධ යාන්ත්‍රණ එකලස් කිරීමට, ගැලවීමට සහ අත්හදා බැලීමට ඉඩ සලසයි:">This kit allows students to assemble, disassemble, and experiment with various common mechanisms, including:</p>
+                 <ul>
+                     <li data-lang-en="Gear and Pinion sets ('Involute' and 'Cycloidal' teeth)" data-lang-si="Gear and Pinion sets (`Involute` සහ `Cycloidal` දත්)">Gear and Pinion sets ('Involute' and 'Cycloidal' teeth)</li>
+                     <li data-lang-en="'Simple' and 'Compound' Gear Trains" data-lang-si="`Simple` සහ `Compound` Gear Trains">'Simple' and 'Compound' Gear Trains</li>
+                     <li data-lang-en="'Flat Belt' and Pulley systems (demonstrating 'Belt Tension')" data-lang-si="`Flat Belt` සහ Pulley පද්ධති (`Belt Tension` නිරූපණය කරමින්)">'Flat Belt' and Pulley systems (demonstrating 'Belt Tension')</li>
+                     <li data-lang-en="'CAM' mechanisms (allowing graphing of 'Follower' motion)" data-lang-si="`CAM` යාන්ත්‍රණ (`Follower` චලිතය graph කිරීමට ඉඩ සලසමින්)">'CAM' mechanisms (allowing graphing of 'Follower' motion)</li>
+                 </ul>
+                 </section>
+
+            <section class="content-section bg-light p-3 rounded mt-4"> <h2 data-lang-en="Our Team" data-lang-si="අපේ කණ්ඩායම"><i class="fas fa-users me-2"></i>Our Team</h2>
+                <p data-lang-en="This project is brought to you by a dedicated team of university students passionate about mechanics and education." data-lang-si="මෙම ව්‍යාපෘතිය ඔබ වෙත ගෙන එන්නේ යාන්ත්‍ර විද්‍යාව සහ අධ්‍යාපනය පිළිබඳ උනන්දුවක් දක්වන විශ්ව විද්‍යාල සිසුන්ගෙන් සැදුම්ලත් කැපවූ කණ්ඩායමක් විසිනි.">This project is brought to you by a dedicated team of university students passionate about mechanics and education.</p>
+
+                <div class="row text-center mt-3 justify-content-center"> <div class="col-md-6 mb-3"> <div class="card h-100">
+                             <img src="images/general/team_member_placeholder.png" class="card-img-top bg-secondary pt-2 pb-2" alt="M.K.S.L.Pinthu Photo" style="max-height: 150px; object-fit: contain;"> <div class="card-body p-2"> <h5 class="card-title fs-6" data-lang-en="M.K.S.L. Pinthu" data-lang-si="M.K.S.L. Pinthu">M.K.S.L. Pinthu</h5>
+                                <p class="card-text text-muted small" data-lang-en="Index No: UWU/BET/20/011" data-lang-si="Index No: UWU/BET/20/011">Index No: UWU/BET/20/011</p>
+                                <p class="card-text text-muted small" data-lang-en="[Role / Contribution]" data-lang-si="[භූමිකාව / දායකත්වය]">[Role / Contribution]</p>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                         <div class="card h-100">
+                             <img src="images/general/team_member_placeholder.png" class="card-img-top bg-secondary pt-2 pb-2" alt="H.M.I.Champika Photo" style="max-height: 150px; object-fit: contain;">
+                             <div class="card-body p-2">
+                                 <h5 class="card-title fs-6" data-lang-en="H.M.I. Champika" data-lang-si="H.M.I. Champika">H.M.I. Champika</h5>
+                                 <p class="card-text text-muted small" data-lang-en="Index No: UWU/BET/20/029" data-lang-si="Index No: UWU/BET/20/029">Index No: UWU/BET/20/029</p>
+                                 <p class="card-text text-muted small" data-lang-en="[Role / Contribution]" data-lang-si="[භූමිකාව / දායකත්වය]">[Role / Contribution]</p>
+                             </div>
+                         </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                         <div class="card h-100">
+                             <img src="images/general/team_member_placeholder.png" class="card-img-top bg-secondary pt-2 pb-2" alt="R.G.G.I.Sakunthala Photo" style="max-height: 150px; object-fit: contain;">
+                             <div class="card-body p-2">
+                                <h5 class="card-title fs-6" data-lang-en="R.G.G.I. Sakunthala" data-lang-si="R.G.G.I. Sakunthala">R.G.G.I. Sakunthala</h5>
+                                <p class="card-text text-muted small" data-lang-en="Index No: UWU/BET/20/121" data-lang-si="Index No: UWU/BET/20/121">Index No: UWU/BET/20/121</p>
+                                <p class="card-text text-muted small" data-lang-en="[Role / Contribution]" data-lang-si="[භූමිකාව / දායකත්වය]">[Role / Contribution]</p>
+                             </div>
+                         </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                         <div class="card h-100">
+                             <img src="images/general/team_member_placeholder.png" class="card-img-top bg-secondary pt-2 pb-2" alt="G.P.A.Malshan Photo" style="max-height: 150px; object-fit: contain;">
+                             <div class="card-body p-2">
+                                <h5 class="card-title fs-6" data-lang-en="G.P.A. Malshan" data-lang-si="G.P.A. Malshan">G.P.A. Malshan</h5>
+                                <p class="card-text text-muted small" data-lang-en="Index No: UWU/BET/20/067" data-lang-si="Index No: UWU/BET/20/067">Index No: UWU/BET/20/067</p>
+                                <p class="card-text text-muted small" data-lang-en="[Role / Contribution]" data-lang-si="[භූමිකාව / දායකත්වය]">[Role / Contribution]</p>
+                             </div>
+                         </div>
+                    </div>
+                </div> </section>
+          </div> <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-lang-en="Close" data-lang-si="වසන්න">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
